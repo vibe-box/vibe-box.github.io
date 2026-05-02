@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Cosmos - 星际知识图谱</title>
+  <link rel="icon" href="/logo.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="graph-page">
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand" href="index.html">✦ Link Cosmos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">知识图谱</a></li>
+          <li class="nav-item"><a class="nav-link" href="quiz.html">知识测试</a></li>
+          <li class="nav-item ms-2">
+            <button class="theme-toggle" onclick="toggleTheme()">
+              <span id="themeIcon">🌙</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <!-- Graph -->
+  <div id="graph-container">
+    <div class="graph-tooltip" id="tooltip"></div>
+  </div>
+
+  <!-- Article Modal -->
+  <div class="modal fade" id="articleModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="modalTitle">文章详情</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p id="modalSummary" class="mb-2"></p>
+          <div class="d-flex gap-2 flex-wrap mt-3">
+            <span class="badge bg-primary" id="modalCategory" style="background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));"></span>
+            <span class="badge bg-secondary" id="modalDistance"></span>
+            <span class="badge bg-info" id="modalObject"></span>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-cosmos-outline" data-bs-dismiss="modal">关闭</button>
+          <a href="quiz.html" class="btn-cosmos text-decoration-none">去测试</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="js/nodes.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/graph.js"></script>
+</body>
+</html>

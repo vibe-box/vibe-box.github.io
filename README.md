@@ -1,2 +1,3 @@
-# vibe-box.github.io
-vibe coding的一些小项目
+# vibe-box
+
+vibe coding 出来的一些小项目/小工具合集。
