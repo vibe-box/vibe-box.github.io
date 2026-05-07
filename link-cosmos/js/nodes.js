@@ -4,14 +4,12 @@
  */
 
 const COSMOS_CATEGORIES = [
-  { id: "cat-stellar", name: "恒星诞生与演化", icon: "✦", desc: "从原恒星到超新星遗迹，探索恒星的一生", color: "#e74c3c" },
   { id: "cat-nebulae", name: "星云奇观", icon: "☁", desc: "宇宙中形态各异的发光气体云", color: "#9b59b6" },
-  { id: "cat-galaxies", name: "星系宇宙", icon: "🌌", desc: "从螺旋星系到星系团的宏大结构", color: "#3498db" },
-  { id: "cat-solar", name: "太阳系世界", icon: "🪐", desc: "行星、卫星、小行星与彗星", color: "#2ecc71" },
+  { id: "cat-stellar", name: "恒星诞生与演化", icon: "✦", desc: "从原恒星到超新星遗迹，探索恒星的一生", color: "#e74c3c" },
   { id: "cat-planet-formation", name: "行星起源", icon: "🌍", desc: "行星如何从原始星盘中诞生", color: "#1abc9c" },
+  { id: "cat-galaxies", name: "星系宇宙", icon: "🌌", desc: "从螺旋星系到星系团的宏大结构", color: "#3498db" },
   { id: "cat-gravity", name: "引力时空", icon: "🌀", desc: "引力透镜、黑洞与时空弯曲", color: "#f39c12" },
-  { id: "cat-solar-activity", name: "太阳活动", icon: "☀", desc: "太阳风暴、黑子与空间天气", color: "#e67e22" },
-  { id: "cat-exploration", name: "人类探索", icon: "🚀", desc: "探测器、登月与地外文明搜寻", color: "#e91e63" }
+  { id: "cat-solar-system", name: "太阳系世界", icon: "🪐", desc: "太阳、行星、卫星、小行星与彗星、地外文明搜寻", color: "#2ecc71" },
 ];
 
 const COSMOS_LINKS = [
@@ -19,11 +17,9 @@ const COSMOS_LINKS = [
   { source: "astronomy", target: "cat-stellar", type: "category" },
   { source: "astronomy", target: "cat-nebulae", type: "category" },
   { source: "astronomy", target: "cat-galaxies", type: "category" },
-  { source: "astronomy", target: "cat-solar", type: "category" },
+  { source: "astronomy", target: "cat-solar-system", type: "category" },
   { source: "astronomy", target: "cat-planet-formation", type: "category" },
   { source: "astronomy", target: "cat-gravity", type: "category" },
-  { source: "astronomy", target: "cat-solar-activity", type: "category" },
-  { source: "astronomy", target: "cat-exploration", type: "category" },
 
   // 分类到文章 - 恒星诞生与演化
   { source: "cat-stellar", target: "herbig-haro-24", type: "belongs" },
@@ -54,20 +50,28 @@ const COSMOS_LINKS = [
   { source: "cat-galaxies", target: "ngc-1566", type: "belongs" },
 
   // 太阳系世界
-  { source: "cat-solar", target: "enceladus", type: "belongs" },
-  { source: "cat-solar", target: "callisto", type: "belongs" },
-  { source: "cat-solar", target: "saturn-night", type: "belongs" },
-  { source: "cat-solar", target: "saturn-rings", type: "belongs" },
-  { source: "cat-solar", target: "titan", type: "belongs" },
-  { source: "cat-solar", target: "jupiter-uv", type: "belongs" },
-  { source: "cat-solar", target: "jupiter-juno", type: "belongs" },
-  { source: "cat-solar", target: "jupiter-webb", type: "belongs" },
-  { source: "cat-solar", target: "io", type: "belongs" },
-  { source: "cat-solar", target: "phobos", type: "belongs" },
-  { source: "cat-solar", target: "mars-leopard", type: "belongs" },
-  { source: "cat-solar", target: "mars-face", type: "belongs" },
-  { source: "cat-solar", target: "comet-67p", type: "belongs" },
-  { source: "cat-solar", target: "ida-dactyl", type: "belongs" },
+  { source: "cat-solar-system", target: "enceladus", type: "belongs" },
+  { source: "cat-solar-system", target: "callisto", type: "belongs" },
+  { source: "cat-solar-system", target: "saturn-night", type: "belongs" },
+  { source: "cat-solar-system", target: "saturn-rings", type: "belongs" },
+  { source: "cat-solar-system", target: "titan", type: "belongs" },
+  { source: "cat-solar-system", target: "jupiter-uv", type: "belongs" },
+  { source: "cat-solar-system", target: "jupiter-juno", type: "belongs" },
+  { source: "cat-solar-system", target: "jupiter-webb", type: "belongs" },
+  { source: "cat-solar-system", target: "io", type: "belongs" },
+  { source: "cat-solar-system", target: "phobos", type: "belongs" },
+  { source: "cat-solar-system", target: "mars-leopard", type: "belongs" },
+  { source: "cat-solar-system", target: "mars-face", type: "belongs" },
+  { source: "cat-solar-system", target: "comet-67p", type: "belongs" },
+  { source: "cat-solar-system", target: "ida-dactyl", type: "belongs" },
+  { source: "cat-solar-system", target: "gigantic-jet", type: "belongs" },
+  { source: "cat-solar-system", target: "solar-storm", type: "belongs" },
+  { source: "cat-solar-system", target: "sunspots", type: "belongs" },
+  { source: "cat-solar-system", target: "perseverance", type: "belongs" },
+  { source: "cat-solar-system", target: "apollo-17", type: "belongs" },
+  { source: "cat-solar-system", target: "zhurong", type: "belongs" },
+  { source: "cat-solar-system", target: "arecibo", type: "belongs" },
+  { source: "cat-solar-system", target: "earth-gravity", type: "belongs" },
 
   // 行星起源
   { source: "cat-planet-formation", target: "pds-70", type: "belongs" },
@@ -78,18 +82,7 @@ const COSMOS_LINKS = [
   { source: "cat-gravity", target: "supernova-requiem", type: "belongs" },
   { source: "cat-gravity", target: "einstein-ring", type: "belongs" },
   { source: "cat-gravity", target: "einstein-cross", type: "belongs" },
-  { source: "cat-gravity", target: "earth-gravity", type: "belongs" },
-
-  // 太阳活动
-  { source: "cat-solar-activity", target: "gigantic-jet", type: "belongs" },
-  { source: "cat-solar-activity", target: "solar-storm", type: "belongs" },
-  { source: "cat-solar-activity", target: "sunspots", type: "belongs" },
-
-  // 人类探索
-  { source: "cat-exploration", target: "perseverance", type: "belongs" },
-  { source: "cat-exploration", target: "apollo-17", type: "belongs" },
-  { source: "cat-exploration", target: "zhurong", type: "belongs" },
-  { source: "cat-exploration", target: "arecibo", type: "belongs" },
+  
 
   // 跨文章关联 - 木星系统
   { source: "jupiter-uv", target: "jupiter-juno", type: "related" },
