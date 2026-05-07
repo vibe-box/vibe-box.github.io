@@ -718,7 +718,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "enceladus",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "土卫二的生命之谜",
     "url": "https://mp.weixin.qq.com/s/lKMAh8El_WyOG_Ihcaj0pg",
     "distance": "土星系统",
@@ -759,7 +759,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "callisto",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "满身伤痕的“脏冰球”，却可能藏着液态海洋",
     "url": "https://mp.weixin.qq.com/s/xlAJ45v8DsmVD620PmVWUA",
     "distance": "木星系统",
@@ -800,7 +800,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "saturn-night",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "土星的夜晚：卡西尼的最后凝望",
     "url": "https://mp.weixin.qq.com/s/_GZfA1KUTbbYHbGU7_l1cw",
     "distance": "土星系统",
@@ -831,7 +831,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "saturn-rings",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "消失的它：当土星环变成一面“刀锋”",
     "url": "https://mp.weixin.qq.com/s/fU19uHWljc74WOjkpnEuWQ",
     "distance": "土星系统",
@@ -862,7 +862,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "titan",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "漫步土卫六：惠更斯号眼中的橙色异世界",
     "url": "https://mp.weixin.qq.com/s/95RnY9skKydEYZerUb1VAg",
     "distance": "土星系统",
@@ -903,7 +903,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "jupiter-uv",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "“紫色”巨人：哈勃视角下的木星紫外线变奏曲",
     "url": "https://mp.weixin.qq.com/s/6LG4aZQY15aaQhER9w_zJQ",
     "distance": "木星系统",
@@ -924,7 +924,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "jupiter-juno",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "木星云层：像沾满油污的锅底，还是像太阳光下的肥皂泡",
     "url": "https://mp.weixin.qq.com/s/gzQdLe6yqQDxV1zXMD3jOw",
     "distance": "木星系统",
@@ -955,7 +955,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "jupiter-webb",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "詹姆斯·韦布太空望远镜下的木星",
     "url": "https://mp.weixin.qq.com/s/_0C_PAmR8_LyLXIc1nYh4w",
     "distance": "木星系统",
@@ -986,7 +986,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "io",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "像葱花饼的木卫一",
     "url": "https://mp.weixin.qq.com/s/B7tWVYer5T0tNuP1i7yRpw",
     "distance": "木星系统",
@@ -1017,7 +1017,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "phobos",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "火卫一：注定消亡的火星卫星",
     "url": "https://mp.weixin.qq.com/s/7To1RuVgOZwjmRIRpL5d6A",
     "distance": "火星系统",
@@ -1048,7 +1048,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "mars-leopard",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "古火星生命：微生物的遗迹？",
     "url": "https://mp.weixin.qq.com/s/tEv8ME__-BttsbfxZkdZFwd",
     "distance": "火星系统",
@@ -1079,7 +1079,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "mars-face",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "一张迟来的火星笑脸",
     "url": "https://mp.weixin.qq.com/s/R0XeDfB8NHH1zvMn4UBxRA",
     "distance": "火星系统",
@@ -1110,7 +1110,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "comet-67p",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "彗星67P/CG：揭示太阳系演化的罗塞塔石碑",
     "url": "https://mp.weixin.qq.com/s/hH2BnIxgCrQNa8nZAFwb9g",
     "distance": "太阳系",
@@ -1151,7 +1151,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "ida-dactyl",
-    "category": "cat-solar",
+    "category": "cat-solar-system",
     "title": "艾达与达克提尔：小行星也有“卫星”",
     "url": "https://mp.weixin.qq.com/s/_VVQU7ElziseRIkMKq7Dwg",
     "distance": "小行星带",
