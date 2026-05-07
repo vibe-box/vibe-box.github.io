@@ -1368,7 +1368,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "earth-gravity",
-    "category": "cat-gravity",
+    "category": "cat-solar-system",
     "title": "地球重力场异常",
     "url": "https://mp.weixin.qq.com/s/UfpoYfZEFt29Dt3gmASJgQ",
     "distance": "地球",
@@ -1399,7 +1399,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "gigantic-jet",
-    "category": "cat-solar-activity",
+    "category": "cat-solar-system",
     "title": "使徒入侵？不，只是罕见的闪电啦",
     "url": "https://mp.weixin.qq.com/s/HVeKJWaKqKoAz2R9JiFGaw",
     "distance": "地球",
@@ -1430,7 +1430,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "solar-storm",
-    "category": "cat-solar-activity",
+    "category": "cat-solar-system",
     "title": "日冕物质抛射与地磁爆",
     "url": "https://mp.weixin.qq.com/s/69suqFRdh10aKZZ8ZlskKg",
     "distance": "日地空间",
@@ -1471,7 +1471,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "sunspots",
-    "category": "cat-solar-activity",
+    "category": "cat-solar-system",
     "title": "太阳黑子年鉴",
     "url": "https://mp.weixin.qq.com/s/wdb14u61HrFjn6sY35YXwA",
     "distance": "1 AU",
@@ -1512,7 +1512,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "perseverance",
-    "category": "cat-exploration",
+    "category": "cat-solar-system",
     "title": "毅力号和机智号的火星生活",
     "url": "https://mp.weixin.qq.com/s/QVGCP1AyzkfKQL1c67RUTw",
     "distance": "火星",
@@ -1553,7 +1553,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "apollo-17",
-    "category": "cat-exploration",
+    "category": "cat-solar-system",
     "title": "月球上的最后一曲：阿波罗17号在肖蒂陨石坑的足迹",
     "url": "https://mp.weixin.qq.com/s/3iIy_R_VA2OVtGwGJkj7Qg",
     "distance": "月球",
@@ -1594,7 +1594,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "zhurong",
-    "category": "cat-exploration",
+    "category": "cat-solar-system",
     "title": "祝融号火星车的自拍",
     "url": "https://mp.weixin.qq.com/s/5Dx0cEpxoDqr0I-pVNQM9w",
     "distance": "火星",
@@ -1625,7 +1625,7 @@ const COSMOS_ARTICLES = [
   },
   {
     "id": "arecibo",
-    "category": "cat-exploration",
+    "category": "cat-solar-system",
     "title": "是“请回答”，还是“不要回答”，这是个问题！",
     "url": "https://mp.weixin.qq.com/s/SAju4TW-7Rtqk0RzE5_LXg",
     "distance": "2.5万光年",
