@@ -48,6 +48,7 @@ const COSMOS_LINKS = [
   { source: "cat-galaxies", target: "m104", type: "belongs" },
   { source: "cat-galaxies", target: "ic-5332", type: "belongs" },
   { source: "cat-galaxies", target: "ngc-1566", type: "belongs" },
+  { source: "cat-galaxies", target: "ngc-2566", type: "belongs" },
 
   // 太阳系世界
   { source: "cat-solar-system", target: "enceladus", type: "belongs" },
@@ -114,6 +115,7 @@ const COSMOS_LINKS = [
   { source: "m104", target: "ic-5332", type: "related" },
   { source: "ic-5332", target: "ngc-1566", type: "related" },
   { source: "ngc-1566", target: "ugc-1810", type: "related" },
+  { source: "ngc-1566", target: "ngc-2566", type: "related" },
 
   // 星云光谱
   { source: "horsehead", target: "rosette", type: "related" },
