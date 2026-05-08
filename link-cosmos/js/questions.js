@@ -5,6 +5,47 @@
 
 const COSMOS_ARTICLES = [
   {
+    "id": "ngc-2566",
+    "category": "cat-galaxies",
+    "title": "这个星系有点怪",
+    "url": "https://mp.weixin.qq.com/s/QaPFebXiHfYlnR1L-KA5NQ",
+    "distance": "7600万光年",
+    "object": "NGC 2566",
+    "summary": "一个像字母“Q”的棒旋星系。",
+    "questions": [
+      {
+        "question": "螺旋星系与棒旋星系的主要区别在于下列哪种结构？",
+        "options": [
+          "旋臂",
+          "星团和恒星形成区",
+          "核球",
+          "棒状结构"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "哈勃空间望远镜在观测亮源时产生的衍射尖峰有几个尖刺状光芒？",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "韦布空间望远镜在观测亮源时产生的衍射尖峰有什么特征？",
+        "options": [
+          "4个尖锐的光芒",
+          "4个尖锐的光芒加2个相对弱的光芒",
+          "6个尖锐的光芒",
+          "6个尖锐的光芒加2个相对弱的光芒"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
     "id": "herbig-haro-24",
     "category": "cat-stellar",
     "title": "Herbig-Haro 天体：“宇宙光剑”的制造者",
