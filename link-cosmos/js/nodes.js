@@ -73,6 +73,7 @@ const COSMOS_LINKS = [
   { source: "cat-solar-system", target: "zhurong", type: "belongs" },
   { source: "cat-solar-system", target: "arecibo", type: "belongs" },
   { source: "cat-solar-system", target: "earth-gravity", type: "belongs" },
+  { source: "cat-solar-system", target: "deimos", type: "belongs" },
 
   // 行星起源
   { source: "cat-planet-formation", target: "pds-70", type: "belongs" },
@@ -105,7 +106,9 @@ const COSMOS_LINKS = [
   { source: "perseverance", target: "zhurong", type: "related" },
   { source: "perseverance", target: "mars-face", type: "related" },
   { source: "mars-leopard", target: "zhurong", type: "related" },
-  { source: "phobos", target: "mars-face", type: "related" },
+  { source: "perseverance", target: "phobos", type: "related" },
+  { source: "perseverance", target: "deimos", type: "related" },
+  { source: "phobos", target: "deimos", type: "related" },
 
   // 螺旋星系家族
   { source: "ngc-3344", target: "ngc-1309", type: "related" },

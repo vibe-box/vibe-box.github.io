@@ -5,6 +5,37 @@
 
 const COSMOS_ARTICLES = [
   {
+    "id": "deimos",
+    "category": "cat-solar-system",
+    "title": "火星的黎明与黎明中的火卫二",
+    "url": "https://mp.weixin.qq.com/s/nSyxOMdlOiIIv6BS734PUg",
+    "distance": "火星系统",
+    "object": "火卫二",
+    "summary": "毅力号拍摄到的火星黎明，以及黎明中的火卫二。",
+    "questions": [
+      {
+        "question": "火卫二绕火星一圈需要多长时间？",
+        "options": [
+          "10 小时 18 分钟",
+          "20 小时 18 分钟",
+          "30 小时 18 分钟",
+          "40 小时 18 分钟"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "火星有多少颗卫星？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
     "id": "ngc-2566",
     "category": "cat-galaxies",
     "title": "这个星系有点怪",
@@ -1589,6 +1620,16 @@ const COSMOS_ARTICLES = [
           "25小时"
         ],
         "correct": 2
+      },
+      {
+        "question": "在火星上会飞的探测器是哪个？",
+        "options": [
+          "机智号",
+          "毅力号",
+          "好奇号",
+          "机遇号"
+        ],
+        "correct": 0
       }
     ]
   },
