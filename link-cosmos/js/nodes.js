@@ -74,6 +74,8 @@ const COSMOS_LINKS = [
   { source: "cat-solar-system", target: "arecibo", type: "belongs" },
   { source: "cat-solar-system", target: "earth-gravity", type: "belongs" },
   { source: "cat-solar-system", target: "deimos", type: "belongs" },
+  { source: "cat-solar-system", target: "pluto", type: "belongs" },
+  { source: "cat-solar-system", target: "pluto-flyover", type: "belongs" },
 
   // 行星起源
   { source: "cat-planet-formation", target: "pds-70", type: "belongs" },
@@ -109,6 +111,9 @@ const COSMOS_LINKS = [
   { source: "perseverance", target: "phobos", type: "related" },
   { source: "perseverance", target: "deimos", type: "related" },
   { source: "phobos", target: "deimos", type: "related" },
+
+  // 冥王星
+  { source: "pluto", target: "pluto-flyover", type: "related" },
 
   // 螺旋星系家族
   { source: "ngc-3344", target: "ngc-1309", type: "related" },

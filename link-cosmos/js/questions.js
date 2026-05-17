@@ -5,6 +5,48 @@
 
 const COSMOS_ARTICLES = [
   {
+    "id": "pluto",
+    "category": "cat-solar-system",
+    "title": "冥王星上的苍茫暮色",
+    "url": "https://mp.weixin.qq.com/s/_ewumcvKjNt0lEWu3Z1JFw",
+    "distance": "39 AU",
+    "object": "冥王星",
+    "summary": "经过九年多的飞行，跨越五十多亿公里的黑暗深空，新视野号于2015年7月14日近距离掠过这颗曾经被称为“第九大行星”的遥远世界，然后从约18000公里外回往看到的冥王星苍茫的暮色。",
+    "questions": [
+      {
+        "question": "冥王星大气中不包含哪种气体？",
+        "options": [
+          "氮气",
+          "一氧化碳",
+          "甲烷",
+          "氧气"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+    "id": "pluto-flyover",
+    "category": "cat-solar-system",
+    "title": "新视野号带你飞越冥王星",
+    "url": "https://mp.weixin.qq.com/s/jkgI83SbNBIa_Onvg4rdDQ",
+    "distance": "39 AU",
+    "object": "冥王星",
+    "summary": "经过九年多的飞行，跨越五十多亿公里的黑暗深空，新视野号于2015年7月14日近距离掠过这颗曾经被称为“第九大行星”的遥远世界。",
+    "questions": [
+      {
+        "question": "冥王星被称为什么天体？",
+        "options": [
+          "小行星",
+          "卫星",
+          "行星",
+          "矮行星"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
     "id": "deimos",
     "category": "cat-solar-system",
     "title": "火星的黎明与黎明中的火卫二",
