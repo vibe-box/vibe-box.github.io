@@ -27,6 +27,7 @@ const COSMOS_LINKS = [
   { source: "cat-stellar", target: "rho-ophiuchi", type: "belongs" },
   { source: "cat-stellar", target: "crab-pulsar", type: "belongs" },
   { source: "cat-stellar", target: "ngc-1898", type: "belongs" },
+  { source: "cat-stellar", target: "ngc-602", type: "belongs" },
 
   // 星云奇观
   { source: "cat-nebulae", target: "horsehead", type: "belongs" },
@@ -38,6 +39,7 @@ const COSMOS_LINKS = [
   { source: "cat-nebulae", target: "red-rectangle", type: "belongs" },
   { source: "cat-nebulae", target: "egg-nebula", type: "belongs" },
   { source: "cat-nebulae", target: "cg4", type: "belongs" },
+  { source: "cat-nebulae", target: "mystic-mountain", type: "belongs" },
 
   // 星系宇宙
   { source: "cat-galaxies", target: "ugc-1810", type: "belongs" },
@@ -55,7 +57,7 @@ const COSMOS_LINKS = [
   { source: "cat-solar-system", target: "callisto", type: "belongs" },
   { source: "cat-solar-system", target: "saturn-night", type: "belongs" },
   { source: "cat-solar-system", target: "saturn-rings", type: "belongs" },
-  { source: "cat-solar-system", target: "titan", type: "belongs" },
+  { source: "cat-solar-system", target: "titan-surface", type: "belongs" },
   { source: "cat-solar-system", target: "jupiter-uv", type: "belongs" },
   { source: "cat-solar-system", target: "jupiter-juno", type: "belongs" },
   { source: "cat-solar-system", target: "jupiter-webb", type: "belongs" },
@@ -76,6 +78,7 @@ const COSMOS_LINKS = [
   { source: "cat-solar-system", target: "deimos", type: "belongs" },
   { source: "cat-solar-system", target: "pluto", type: "belongs" },
   { source: "cat-solar-system", target: "pluto-flyover", type: "belongs" },
+  { source: "cat-solar-system", target: "titan", type: "belongs" },
 
   // 行星起源
   { source: "cat-planet-formation", target: "pds-70", type: "belongs" },
@@ -98,10 +101,10 @@ const COSMOS_LINKS = [
 
   // 土星系统
   { source: "saturn-night", target: "saturn-rings", type: "related" },
-  { source: "saturn-night", target: "titan", type: "related" },
   { source: "saturn-night", target: "enceladus", type: "related" },
   { source: "saturn-rings", target: "enceladus", type: "related" },
   { source: "enceladus", target: "titan", type: "related" },
+  { source: "titan", target: "titan-surface", type: "related" },
 
   // 火星系统
   { source: "perseverance", target: "mars-leopard", type: "related" },
