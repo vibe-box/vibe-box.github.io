@@ -51,6 +51,7 @@ const COSMOS_LINKS = [
   { source: "cat-galaxies", target: "ic-5332", type: "belongs" },
   { source: "cat-galaxies", target: "ngc-1566", type: "belongs" },
   { source: "cat-galaxies", target: "ngc-2566", type: "belongs" },
+  { source: "cat-galaxies", target: "ngc-1300", type: "belongs" },
 
   // 太阳系世界
   { source: "cat-solar-system", target: "enceladus", type: "belongs" },
@@ -79,6 +80,7 @@ const COSMOS_LINKS = [
   { source: "cat-solar-system", target: "pluto", type: "belongs" },
   { source: "cat-solar-system", target: "pluto-flyover", type: "belongs" },
   { source: "cat-solar-system", target: "titan", type: "belongs" },
+  { source: "cat-solar-system", target: "superplumes", type: "belongs" },
 
   // 行星起源
   { source: "cat-planet-formation", target: "pds-70", type: "belongs" },
@@ -91,7 +93,11 @@ const COSMOS_LINKS = [
   { source: "cat-gravity", target: "einstein-cross", type: "belongs" },
   
 
-  // 跨文章关联 - 木星系统
+  // 跨文章关联
+  // 地球
+  { source: "earth-gravity", target: "superplumes", type: "related" },
+  
+  // 木星系统
   { source: "jupiter-uv", target: "jupiter-juno", type: "related" },
   { source: "jupiter-uv", target: "jupiter-webb", type: "related" },
   { source: "jupiter-juno", target: "jupiter-webb", type: "related" },
@@ -127,6 +133,7 @@ const COSMOS_LINKS = [
   { source: "ic-5332", target: "ngc-1566", type: "related" },
   { source: "ngc-1566", target: "ugc-1810", type: "related" },
   { source: "ngc-1566", target: "ngc-2566", type: "related" },
+  { source: "ngc-2566", target: "ngc-1300", type: "related" },
 
   // 星云光谱
   { source: "horsehead", target: "rosette", type: "related" },

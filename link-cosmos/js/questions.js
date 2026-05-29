@@ -5,6 +5,79 @@
 
 const COSMOS_ARTICLES = [
   {
+  "id": "abell-2029",
+  "category": "cat-galaxies",
+  "title": "星系团碰撞留下的巨大X射线螺旋",
+  "url": "https://mp.weixin.qq.com/s/ZtdpSI-2t9dlc61z5zfYOA",
+  "distance": "约10亿光年",
+  "object": "Abell 2029",
+  "summary": "Abell 2029是一个位于天鹰座的巨大星系团。它是Abell星系团目录中的第2029号成员，以其巨大的质量和复杂的内部结构而闻名。该星系团中心的巨型椭圆星系是已知最亮的星系之一，而星系团整体则成为研究星系团碰撞、暗物质分布和宇宙大尺度结构的重要目标。",
+  "questions": [
+      {
+        "question": "Abell 2029的X射线辐射主要来源是哪里？",
+        "options": [
+          "星系团中的恒星",
+          "星系团中的黑洞",
+          "星系团中星系的并和",
+          "星系团内部极高温的热气体"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+  "id": "ngc-1300",
+  "category": "cat-galaxies",
+  "title": "棒旋星系的标准证件照：NGC 1300",
+  "url": "https://mp.weixin.qq.com/s/6RxL4x7ODPgO4Rl6liuLuw",
+  "distance": "约7000万光年",
+  "object": "NGC 1300",
+  "summary": "NGC 1300是位于波江座方向的棒旋星系，直径超过10万光年。该星系的中心棒非常突出，旋臂从棒的两端延伸而出，整体结构极其对称，是展示棒旋星系特征的理想范例。",
+  "questions": [
+      {
+        "question": "棒状星系NGC 1300有几条旋臂？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+  "id": "superplumes",
+  "category": "cat-solar-system",
+  "title": "地球内部的\"超级地幔柱\"：月球诞生的残骸？远古板块的墓地？",
+  "url": "https://mp.weixin.qq.com/s/mHnuFa7hL-e3s3B4SrmxVw",
+  "distance": "地球",
+  "object": "超级地幔柱",
+  "summary": "位于地球核幔边界附近（深度约2900公里）的两个巨大异常区域，一个位于非洲下方，另一个位于太平洋下方，它们比周围的地幔物质更热、成分也不同，体积大到能覆盖几个大洲。",
+  "questions": [
+      {
+        "question": "地球地幔中的超级地幔柱有几个？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "忒伊亚大碰撞假说是为了解释以下哪种结果？",
+        "options": [
+          "月球的起源",
+          "地球的起源",
+          "火星的起源",
+          "金星的逆向自转"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
   "id": "ngc-602",
   "category": "cat-stellar",
   "title": "牡蛎与珍珠",
