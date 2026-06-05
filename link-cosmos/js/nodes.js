@@ -28,6 +28,7 @@ const COSMOS_LINKS = [
   { source: "cat-stellar", target: "crab-pulsar", type: "belongs" },
   { source: "cat-stellar", target: "ngc-1898", type: "belongs" },
   { source: "cat-stellar", target: "ngc-602", type: "belongs" },
+  { source: "cat-stellar", target: "crab-nebulae", type: "belongs" },
 
   // 星云奇观
   { source: "cat-nebulae", target: "horsehead", type: "belongs" },
@@ -40,6 +41,7 @@ const COSMOS_LINKS = [
   { source: "cat-nebulae", target: "egg-nebula", type: "belongs" },
   { source: "cat-nebulae", target: "cg4", type: "belongs" },
   { source: "cat-nebulae", target: "mystic-mountain", type: "belongs" },
+  { source: "cat-nebulae", target: "spirograph-nebula", type: "belongs" },
 
   // 星系宇宙
   { source: "cat-galaxies", target: "ugc-1810", type: "belongs" },
@@ -52,6 +54,7 @@ const COSMOS_LINKS = [
   { source: "cat-galaxies", target: "ngc-1566", type: "belongs" },
   { source: "cat-galaxies", target: "ngc-2566", type: "belongs" },
   { source: "cat-galaxies", target: "ngc-1300", type: "belongs" },
+  { source: "cat-galaxies", target: "milky-way", type: "belongs" },
 
   // 太阳系世界
   { source: "cat-solar-system", target: "enceladus", type: "belongs" },
@@ -134,6 +137,7 @@ const COSMOS_LINKS = [
   { source: "ngc-1566", target: "ugc-1810", type: "related" },
   { source: "ngc-1566", target: "ngc-2566", type: "related" },
   { source: "ngc-2566", target: "ngc-1300", type: "related" },
+  { source: "ngc-3370", target: "milk-way", type: "related" },
 
   // 星云光谱
   { source: "horsehead", target: "rosette", type: "related" },
@@ -144,12 +148,15 @@ const COSMOS_LINKS = [
   { source: "red-rectangle", target: "egg-nebula", type: "related" },
   { source: "egg-nebula", target: "ghost-head", type: "related" },
   { source: "ghost-head", target: "cg4", type: "related" },
+  { source: "crab-pulsar", target: "crab-nebulae", type: "related" },
+  { source: "ant-nebula", target: "spirograph-nebula", type: "related" },
 
   // 引力透镜
   { source: "einstein-ring", target: "einstein-cross", type: "related" },
   { source: "einstein-ring", target: "supernova-requiem", type: "related" },
   { source: "einstein-cross", target: "pandora", type: "related" },
   { source: "supernova-requiem", target: "pandora", type: "related" },
+  { source: "crab-pulsar", target: "supernova-requiem", type: "related" },
 
   // 行星盘演化
   { source: "pds-70", target: "wispit-2b", type: "related" },
@@ -159,6 +166,5 @@ const COSMOS_LINKS = [
   // 望远镜与人造天体
   { source: "jupiter-uv", target: "jupiter-webb", type: "related" },
   { source: "ic-5332", target: "rho-ophiuchi", type: "related" },
-  { source: "crab-pulsar", target: "supernova-requiem", type: "related" },
   { source: "sunspots", target: "solar-storm", type: "related" }
 ];

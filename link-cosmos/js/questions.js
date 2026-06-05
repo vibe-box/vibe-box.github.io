@@ -5,6 +5,69 @@
 
 const COSMOS_ARTICLES = [
   {
+  "id": "spirograph-nebula",
+  "category": "cat-nebulae",
+  "title": "万花尺星云IC 418：一颗\"喜怒无常\"的恒星创造出的宇宙级几何图案",
+  "url": "https://mp.weixin.qq.com/s/kc5plooMu91g_75RzmxxvA",
+  "distance": "约2000光年",
+  "object": "IC 418",
+  "summary": "一个行星状星云，因其特殊的几何纹理而得名，成为研究恒星晚期演化和星云动力学的重要目标之一。",
+  "questions": [
+      {
+        "question": "行星状星云中心的致密天体是什么？",
+        "options": [
+          "恒星",
+          "白矮星",
+          "中子星",
+          "黑洞"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+  "id": "crab-nebulae",
+  "category": "cat-nebulae",
+  "title": "千年客星今犹在，不见当年宋仁宗",
+  "url": "https://mp.weixin.qq.com/s/u2vdTrCC2Tb2J0kuvKw4Hg",
+  "distance": "约6500光年",
+  "object": "蟹状星云",
+  "summary": "于公元1054年观测到的超新星遗迹，它的中心是一颗快速旋转的脉冲星，每秒旋转约30圈，是已知最年轻的脉冲星之一。",
+  "questions": [
+      {
+        "question": "史书记载的最终成为蟹状星云的超新星爆发发生哪个朝代？",
+        "options": [
+          "秦朝",
+          "隋朝",
+          "唐朝",
+          "宋朝"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+  "id": "milky-way",
+  "category": "cat-galaxies",
+  "title": "上帝视角看银河系",
+  "url": "https://mp.weixin.qq.com/s/V-yGVSp9woCHpM4ZXQS50Q",
+  "distance": "银河系",
+  "object": "银河系",
+  "summary": "欧航局的盖亚任务，通过精确测量银河系中约20亿颗恒星的位置、距离、自行运动和光谱特征，创建迄今为止最精确的三维银河系星图。",
+  "questions": [
+      {
+        "question": "银河系是一种什么类型的星系？",
+        "options": [
+          "螺旋星系",
+          "棒旋星系",
+          "椭圆星系",
+          "不规则星系"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
   "id": "abell-2029",
   "category": "cat-galaxies",
   "title": "星系团碰撞留下的巨大X射线螺旋",
@@ -402,7 +465,7 @@ const COSMOS_ARTICLES = [
     "category": "cat-stellar",
     "title": "星际灯塔脉冲星",
     "url": "https://mp.weixin.qq.com/s/d_0cg5tkvVpvFITCkxFRXw",
-    "distance": "6500光年",
+    "distance": "约6500光年",
     "object": "蟹状星云",
     "summary": "公元1054年在金牛座方向的一次超新星爆发，遗留下来的超新星遗迹，中心为一颗脉冲星，每秒自转约30圈。",
     "questions": [
