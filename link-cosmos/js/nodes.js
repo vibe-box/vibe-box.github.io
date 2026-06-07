@@ -137,7 +137,7 @@ const COSMOS_LINKS = [
   { source: "ngc-1566", target: "ugc-1810", type: "related" },
   { source: "ngc-1566", target: "ngc-2566", type: "related" },
   { source: "ngc-2566", target: "ngc-1300", type: "related" },
-  { source: "ngc-3370", target: "milk-way", type: "related" },
+  { source: "ngc-3370", target: "milky-way", type: "related" },
 
   // 星云光谱
   { source: "horsehead", target: "rosette", type: "related" },
