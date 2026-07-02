@@ -5,6 +5,131 @@
 
 const COSMOS_ARTICLES = [
   {
+  "id": "jupiter-ring",
+  "category": "cat-solar-system",
+  "title": "木星环的形成",
+  "url": "https://mp.weixin.qq.com/s/xf422Mcpv6jol9-jU17aVg",
+  "distance": "木星系统",
+  "object": "木星",
+  "summary": "木星环是太阳系四大气态巨行星中最暗淡的环系统之一，主要由流星体对小卫星的撞击产生的尘埃组成。",
+  "questions": [
+      {
+        "question": "木星环是怎样形成的？",
+        "options": [
+          "木星形成过程中通过吸积原始物质形成的",
+          "木星的卫星被潮汐撕裂造成的",
+          "彗星撞击造成的",
+          "流星体对小卫星的撞击产生的"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "以下太阳系行星中没有环的是哪个？",
+        "options": [
+          "火星",
+          "木星",
+          "土星",
+          "天王星"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+  "id": "hh-49",
+  "category": "cat-stellar",
+  "title": "未竟之路：HH 49 的尽头",
+  "url": "https://mp.weixin.qq.com/s/3t6y1M6h4wh4wS93G2LLjQ",
+  "distance": "约650光年",
+  "object": "HH 49",
+  "summary": "赫比格-哈罗天体（Herbig-Haro Object）HH 49 产生的喷流，尽头指向一个遥远的螺旋星系。",
+  "questions": [
+      {
+        "question": "Herbig-Haro 天体 HH 49 的喷流尽头指向一个螺旋星系，这是因为？",
+        "options": [
+          "纯粹的巧合",
+          "喷流是由这个螺旋星系产生的",
+          "喷流和这个螺旋星系的位置靠得很近",
+          "它们之间有某种未知的关系"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+  "id": "ngc-1514",
+  "category": "cat-nebulae",
+  "title": "一枚星际戒指：行星状星云NGC 1514",
+  "url": "https://mp.weixin.qq.com/s/GwWvqdgmhedwWTQ3WIVzqw",
+  "distance": "约2200光年",
+  "object": "NGC 1514",
+  "summary": "一个由双星系统塑造的沙漏状的行星状星云。外红外波段下，外观呈圆柱体，像一个车轮，有像一枚戒指。",
+  "questions": [
+      {
+        "question": "沙漏状的行星状星云NGC 1514的成因是由于什么原因造成的？",
+        "options": [
+          "中心的一个双星系统",
+          "中心的一个白矮星",
+          "中心的一个中子星",
+          "中心的一个黑洞"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+  "id": "lensed-galaxy",
+  "category": "cat-gravity",
+  "title": "牛油果形状的引力透镜",
+  "url": "https://mp.weixin.qq.com/s/GUL1TGZtNG8iQpzq0wjO7A",
+  "distance": "约79亿光年",
+  "object": "PSZ2G304.84-41.40",
+  "summary": "一个由前景的椭圆星系和背景的螺旋星系构成的引力透镜，看起来像一个牛油果。",
+  "questions": [
+      {
+        "question": "以下哪一个天体不可以充当引力透镜的作用？",
+        "options": [
+          "星际介质",
+          "星系",
+          "星系团",
+          "恒星"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  {
+  "id": "painting-jupiter",
+  "category": "cat-solar-system",
+  "title": "用木星大气画一幅印象派油画：一位公民科学家的作品",
+  "url": "https://mp.weixin.qq.com/s/LaqwWi7CbmZizRAP1CQ9Yg",
+  "distance": "木星系统",
+  "object": "木星",
+  "summary": "利用朱诺号木星探测器拍摄的木星大气数据，一位公民科学家创作的一幅数字印象派油画。",
+  "questions": [
+      {
+        "question": "目前已知的木星大气成分不包含以下哪种分子？",
+        "options": [
+          "H2",
+          "He",
+          "NH3",
+          "O3"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "对木星进行专门研究的是哪个探测器？",
+        "options": [
+          "卡西尼号探测器",
+          "朱诺号探测器",
+          "惠更斯号探测器",
+          "新视野号探测器"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
   "id": "spirograph-nebula",
   "category": "cat-nebulae",
   "title": "万花尺星云IC 418：一颗\"喜怒无常\"的恒星创造出的宇宙级几何图案",
@@ -358,7 +483,7 @@ const COSMOS_ARTICLES = [
     ]
   },
   {
-    "id": "herbig-haro-24",
+    "id": "hh-24",
     "category": "cat-stellar",
     "title": "Herbig-Haro 天体：“宇宙光剑”的制造者",
     "url": "https://mp.weixin.qq.com/s/KSHv1PG_k9LTfiAkwrEpUg",

@@ -22,13 +22,14 @@ const COSMOS_LINKS = [
   { source: "astronomy", target: "cat-gravity", type: "category" },
 
   // 分类到文章 - 恒星诞生与演化
-  { source: "cat-stellar", target: "herbig-haro-24", type: "belongs" },
+  { source: "cat-stellar", target: "hh-24", type: "belongs" },
   { source: "cat-stellar", target: "ngc-6357", type: "belongs" },
   { source: "cat-stellar", target: "rho-ophiuchi", type: "belongs" },
   { source: "cat-stellar", target: "crab-pulsar", type: "belongs" },
   { source: "cat-stellar", target: "ngc-1898", type: "belongs" },
   { source: "cat-stellar", target: "ngc-602", type: "belongs" },
   { source: "cat-stellar", target: "crab-nebulae", type: "belongs" },
+  { source: "cat-nebulae", target: "hh-49", type: "belongs" },
 
   // 星云奇观
   { source: "cat-nebulae", target: "horsehead", type: "belongs" },
@@ -42,6 +43,7 @@ const COSMOS_LINKS = [
   { source: "cat-nebulae", target: "cg4", type: "belongs" },
   { source: "cat-nebulae", target: "mystic-mountain", type: "belongs" },
   { source: "cat-nebulae", target: "spirograph-nebula", type: "belongs" },
+  { source: "cat-nebulae", target: "ngc-1514", type: "belongs" },
 
   // 星系宇宙
   { source: "cat-galaxies", target: "ugc-1810", type: "belongs" },
@@ -84,6 +86,8 @@ const COSMOS_LINKS = [
   { source: "cat-solar-system", target: "pluto-flyover", type: "belongs" },
   { source: "cat-solar-system", target: "titan", type: "belongs" },
   { source: "cat-solar-system", target: "superplumes", type: "belongs" },
+  { source: "cat-solar-system", target: "painting-jupiter", type: "belongs" },
+  { source: "cat-solar-system", target: "jupiter-ring", type: "belongs" },
 
   // 行星起源
   { source: "cat-planet-formation", target: "pds-70", type: "belongs" },
@@ -94,6 +98,7 @@ const COSMOS_LINKS = [
   { source: "cat-gravity", target: "supernova-requiem", type: "belongs" },
   { source: "cat-gravity", target: "einstein-ring", type: "belongs" },
   { source: "cat-gravity", target: "einstein-cross", type: "belongs" },
+  { source: "cat-gravity", target: "lensed-galaxy", type: "belongs" },
   
 
   // 跨文章关联
@@ -107,6 +112,7 @@ const COSMOS_LINKS = [
   { source: "jupiter-webb", target: "io", type: "related" },
   { source: "jupiter-webb", target: "callisto", type: "related" },
   { source: "io", target: "callisto", type: "related" },
+  { source: "jupiter-webb", target: "jupiter-ring", type: "related" },  
 
   // 土星系统
   { source: "saturn-night", target: "saturn-rings", type: "related" },
