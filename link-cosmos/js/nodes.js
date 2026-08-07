@@ -29,7 +29,8 @@ const COSMOS_LINKS = [
   { source: "cat-stellar", target: "ngc-1898", type: "belongs" },
   { source: "cat-stellar", target: "ngc-602", type: "belongs" },
   { source: "cat-stellar", target: "crab-nebulae", type: "belongs" },
-  { source: "cat-nebulae", target: "hh-49", type: "belongs" },
+  { source: "cat-stellar", target: "hh-49", type: "belongs" },
+  { source: "cat-stellar", target: "lynds-483", type: "belongs" },
 
   // 星云奇观
   { source: "cat-nebulae", target: "horsehead", type: "belongs" },
@@ -57,6 +58,11 @@ const COSMOS_LINKS = [
   { source: "cat-galaxies", target: "ngc-2566", type: "belongs" },
   { source: "cat-galaxies", target: "ngc-1300", type: "belongs" },
   { source: "cat-galaxies", target: "milky-way", type: "belongs" },
+  { source: "cat-galaxies", target: "ngc-4414", type: "belongs" },
+  { source: "cat-galaxies", target: "m94", type: "belongs" },
+  { source: "cat-galaxies", target: "hudf", type: "belongs" },
+  { source: "cat-galaxies", target: "abell-2029", type: "belongs" },
+  { source: "cat-galaxies", target: "ngc-1672", type: "belongs" },
 
   // 太阳系世界
   { source: "cat-solar-system", target: "enceladus", type: "belongs" },
@@ -88,6 +94,8 @@ const COSMOS_LINKS = [
   { source: "cat-solar-system", target: "superplumes", type: "belongs" },
   { source: "cat-solar-system", target: "painting-jupiter", type: "belongs" },
   { source: "cat-solar-system", target: "jupiter-ring", type: "belongs" },
+  { source: "cat-solar-system", target: "ultraviolet-sun", type: "belongs" },
+  { source: "cat-solar-system", target: "jupiter-cyclones", type: "belongs" },
 
   // 行星起源
   { source: "cat-planet-formation", target: "pds-70", type: "belongs" },
@@ -172,5 +180,6 @@ const COSMOS_LINKS = [
   // 望远镜与人造天体
   { source: "jupiter-uv", target: "jupiter-webb", type: "related" },
   { source: "ic-5332", target: "rho-ophiuchi", type: "related" },
-  { source: "sunspots", target: "solar-storm", type: "related" }
+  { source: "sunspots", target: "solar-storm", type: "related" },
+  { source: "ultraviolet-sun", target: "sunspots", type: "related" },
 ];

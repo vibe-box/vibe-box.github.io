@@ -4,6 +4,174 @@
  */
 
 const COSMOS_ARTICLES = [
+  // {
+  // "id": "xxx",
+  // "category": "cat-xxx",
+  // "title": "xxx",
+  // "url": "xxx",
+  // "distance": "xxx",
+  // "object": "xxx",
+  // "summary": "xxx",
+  // "questions": [
+  //     {
+  //       "question": "xxx",
+  //       "options": [
+  //         "xxx",
+  //         "xxx",
+  //         "xxx",
+  //         "xxx"
+  //       ],
+  //       "correct": xxx
+  //     }
+  //   ]
+  // },
+  {
+  "id": "hudf",
+  "category": "cat-galaxies",
+  "title": "哈勃超深场与星系交响曲",
+  "url": "https://mp.weixin.qq.com/s/GejE2qjLVKJnP0rcuY95Zw",
+  "distance": "平均约 106 亿光年",
+  "object": "The Hubble Ultra Deep Field",
+  "summary": "哈勃空间望远镜于2003—2004年对天炉座方向一块极小的天区进行长时间曝光所得的图像，这个区域包含了约一万个星系，是人类迄今拍摄的最深最远的宇宙光学影像之一。研究人员随后通过声化技术把拍摄的无声图像转换成了一场生动的交响乐。",
+  "questions": [
+      {
+        "question": "关于星系的红移，下列说法正确的是？",
+        "options": [
+          "由于星系在空间中运动而远离地球，发出来的光的波长会被拉长",
+          "由于星系在空间中运动而接近地球，发出来的光的波长会被拉长",
+          "由于宇宙膨胀，遥远星系发出来的光的频率会被升高",
+          "由于宇宙膨胀，遥远星系发出来的光的波长会被拉长"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+  "id": "m94",
+  "category": "cat-galaxies",
+  "title": "星暴星系 M94 中的\"婴儿潮\"",
+  "url": "https://mp.weixin.qq.com/s/OB-KQ-9JrMnd74teG8vygQ",
+  "distance": "约 1500 万光年",
+  "object": "M94",
+  "summary": "哈勃空间望远镜拍摄的星暴星系 M94 的中心核球和外围新形成的年轻星团。",
+  "questions": [
+      {
+        "question": "星暴星系有什么特点？",
+        "options": [
+          "恒星集体死亡",
+          "恒星集体形成",
+          "恒星集体碰撞",
+          "恒星集体远离"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+  "id": "jupiter-cyclones",
+  "category": "cat-solar-system",
+  "title": "木星的北极气旋：冷冰冰的\"地狱\"入口",
+  "url": "https://mp.weixin.qq.com/s/sTHA_QMYAf4qo7eS8WlkZQ",
+  "distance": "木星系统",
+  "object": "木星极地气旋",
+  "summary": "气态巨行星木星和土星的南北极气旋。",
+  "questions": [
+      {
+        "question": "木星北极的气旋有什么特点？",
+        "options": [
+          "气旋为六边形漩涡",
+          "以低压区域为中心的涡旋",
+          "以高压区域为中心的涡旋",
+          "气旋中心温度较高"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  {
+  "id": "ngc-1672",
+  "category": "cat-galaxies",
+  "title": "棒旋星系 NGC 1672 和它的小伙伴（多图）",
+  "url": "https://mp.weixin.qq.com/s/c5c3tywhvN64SnZ5Q12_UA",
+  "distance": "约 6000 万光年",
+  "object": "NGC 1672",
+  "summary": "哈勃空间望远镜拍摄的棒旋星系 NGC 1672。",
+  "questions": [
+      {
+        "question": "棒旋星系占螺旋星系的比例约为多少？",
+        "options": [
+          "1/3",
+          "2/3",
+          "1/4",
+          "1/2"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+  "id": "lynds-483",
+  "category": "cat-stellar",
+  "title": "襁褓中的婴儿：暗分子云 Lynds 483 中的原恒星",
+  "url": "https://mp.weixin.qq.com/s/6bWKod7H2q6R7bItJrZP4Q",
+  "distance": "约 650 光年",
+  "object": "Lynds 483",
+  "summary": "韦布空间望远镜拍摄的暗分子云 Lynds 483 中的原恒星。",
+  "questions": [
+      {
+        "question": "原恒星的加热机制是什么？",
+        "options": [
+          "核裂变",
+          "核聚变",
+          "受到外部的辐射而加热",
+          "通过吸积周围的物质，碰撞加热"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  {
+  "id": "ultraviolet-sun",
+  "category": "cat-solar-system",
+  "title": "太阳的紫外线照与金星凌日",
+  "url": "https://mp.weixin.qq.com/s/FvyZcLsk-gKG8ONxTggQtw",
+  "distance": "太阳表面",
+  "object": "太阳",
+  "summary": "太阳动力学天文台（SDO）拍摄的紫外波段的太阳的伪彩色合成图像，同时见证了一次金星凌日。",
+  "questions": [
+      {
+        "question": "太阳的表面温度约为多少开尔文？",
+        "options": [
+          "约 4800 K",
+          "约 5800 K",
+          "约 6800 K",
+          "约 7800 K"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  {
+  "id": "ngc-4414",
+  "category": "cat-galaxies",
+  "title": "絮状螺旋星系 NGC 4414",
+  "url": "",
+  "distance": "约6000万光年",
+  "object": "NGC 4414",
+  "summary": "NGC 4414 是一个位于后发座、距离地球约 6000 万光年的一个絮状螺旋星系。",
+  "questions": [
+      {
+        "question": "从大尺度上看，絮状螺旋星系 NGC 4414 少了一个什么结构？",
+        "options": [
+          "旋臂",
+          "核球",
+          "漩涡",
+          "尘埃带"
+        ],
+        "correct": 0
+      }
+    ]
+  },
   {
   "id": "jupiter-ring",
   "category": "cat-solar-system",
@@ -1952,7 +2120,7 @@ const COSMOS_ARTICLES = [
     "category": "cat-solar-system",
     "title": "太阳黑子年鉴",
     "url": "https://mp.weixin.qq.com/s/wdb14u61HrFjn6sY35YXwA",
-    "distance": "1 AU",
+    "distance": "太阳表面",
     "object": "太阳黑子",
     "summary": "太阳表面强磁场区域呈现为\"噬星体\"般的暗斑，以11年为周期增减。",
     "questions": [
